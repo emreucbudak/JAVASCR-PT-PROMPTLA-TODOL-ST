@@ -1,0 +1,25 @@
+#todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
+}
+div.input-group {
+    border-bottom: 2px solid lightgray;
+}
+div#list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div#list .card {
+    margin-top: 2vh;
+}
+.card-body i{
+    float: right;
+}
+.card:last-child {
+    margin-bottom: 2vh;
+}
